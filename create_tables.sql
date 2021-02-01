@@ -3,7 +3,7 @@ CREATE TABLE stock (
     symbol TEXT NOT NULL,
     name TEXT NOT NULL,
     exchange TEXT NOT NULL,
-    is_etf BOOLEAN NOT NULL
+    is_shortable BOOLEAN NOT NULL
 );
 
 CREATE TABLE mention (
@@ -35,3 +35,9 @@ CREATE TABLE stock_price (
 
 CREATE INDEX ON stock_price (stock_id, dt DESC);
 SELECT create_hypertable('stock_price', 'dt');
+
+
+select count(*) as num_mentions, stock_id, symbol
+from mention join stock on stock.id = mention.stock_id
+group by stock_id, symbol
+order by num_mentions DESC;

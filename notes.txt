@@ -8,6 +8,8 @@
 - Google Cloud project
 - Cloud Functions
 - GitHub repository
+- Reddit Search
+- Postgres
 - Alpaca API *
 
 
@@ -43,3 +45,8 @@ Reddit
 - https://alpaca.markets/docs/api-documentation/api-v2/orders/#order-entity
 
 - https://www.youtube.com/watch?v=CJAdCLZaISw
+
+
+
+
+python -m pip install -r requirements.txt

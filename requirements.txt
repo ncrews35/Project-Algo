@@ -1,2 +1,6 @@
 psaw
-# psycopg2
+alpaca_trade_api
+psycopg2
+requests
+asyncpg
+aiohttp
