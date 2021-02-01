@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/nickcrews/Documents/Project_Algo/env"
+VIRTUAL_ENV="/Users/nickcrews/Documents/Project-Algo/env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

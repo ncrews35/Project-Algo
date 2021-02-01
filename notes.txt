@@ -22,6 +22,13 @@
 Alpaca
 - API Endpoints for account, order
 
+
+Reddit
+- Will use reddit API endpoints
+    / https://www.reddit.com/dev/api/ 
+- Will use pushshift.io API endpoints
+     / http://pushshift.io/
+
 *Resources*
 
 - https://alpaca.markets/learn/algorithmic-trading-bot-7-steps/
@@ -35,3 +42,4 @@ Alpaca
 
 - https://alpaca.markets/docs/api-documentation/api-v2/orders/#order-entity
 
+- https://www.youtube.com/watch?v=CJAdCLZaISw
