@@ -2,6 +2,14 @@
 ## This file is used for notes on algorithm trading ##
 ******************************************************
 
+*Setup*
+
+- Python environment
+- Google Cloud project
+- Cloud Functions
+- GitHub repository
+- Alpaca API *
+
 
 *Notes*
 
@@ -10,6 +18,9 @@
 - The logic will have to be put together by the team
 - We will use Alpca to stream market data
 
+
+Alpaca
+- API Endpoints for account, order
 
 *Resources*
 
@@ -21,3 +32,6 @@
 - https://cloud.google.com/python/docs/setup
 - https://cloud.google.com/functions/docs/quickstart-python
 - https://medium.com/google-cloud/setup-and-invoke-cloud-functions-using-python-e801a8633096
+
+- https://alpaca.markets/docs/api-documentation/api-v2/orders/#order-entity
+
