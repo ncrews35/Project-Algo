@@ -1,0 +1,23 @@
+******************************************************
+## This file is used for notes on algorithm trading ##
+******************************************************
+
+
+*Notes*
+
+- The first version of the algorithm will deliver stock picks every morning
+- It will run on Cloud Functions in Python
+- The logic will have to be put together by the team
+- We will use Alpca to stream market data
+
+
+*Resources*
+
+- https://alpaca.markets/learn/algorithmic-trading-bot-7-steps/
+- https://alpaca.markets/
+- https://github.com/McKlayne/automate_algo_trading_medium/blob/master/Pairs_Trading_Algo_Example.py
+
+- https://github.com/googleapis/google-cloud-python#google-cloud-python-client
+- https://cloud.google.com/python/docs/setup
+- https://cloud.google.com/functions/docs/quickstart-python
+- https://medium.com/google-cloud/setup-and-invoke-cloud-functions-using-python-e801a8633096
