@@ -6,3 +6,7 @@ DB_HOST = 'localhost'
 DB_USER = 'postgres'
 DB_PASS = 'Bethdel35'
 DB_NAME = 'stock_data'
+
+
+email = "avenueb.algo@gmail.com"
+password = "ToTheMoon123!"

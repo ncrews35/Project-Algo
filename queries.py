@@ -14,7 +14,6 @@ ORDERS_URL = "{}/v2/orders".format(BASE_URL)
 connection = psycopg2.connect(host=config.DB_HOST, database=config.DB_NAME, user=config.DB_USER, password=config.DB_PASS)
 cursor = connection.cursor(cursor_factory=psycopg2.extras.DictCursor)
 
-
 def get_account():
     r = requests.get(ACCOUNT_URL, headers=HEADERS)
     
@@ -54,7 +53,6 @@ def get_mention_counts():
         GROUP BY stock_id, symbol
         ORDER BY num_mentions DESC
     """)
-
     mention_counts = cursor.fetchall()
 
     return mention_counts
