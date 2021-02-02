@@ -48,9 +48,4 @@ Reddit
 
 - https://cloud.google.com/scheduler/docs/quickstart
 
-
-
-python -m pip install -r requirements.txt
-
-
-algo-303501
+- https://medium.com/automation-generation/step-by-step-guide-to-run-a-simple-trading-algorithm-in-the-cloud-using-python-alpaca-and-aws-34c899b678b0
