@@ -20,3 +20,4 @@ for asset in assets:
         """, (asset.name, asset.symbol, asset.exchange, asset.shortable))
 
 connection.commit()
+

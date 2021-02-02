@@ -56,3 +56,4 @@ def get_mention_counts():
     mention_counts = cursor.fetchall()
 
     return mention_counts
+

@@ -46,7 +46,11 @@ Reddit
 
 - https://www.youtube.com/watch?v=CJAdCLZaISw
 
+- https://cloud.google.com/scheduler/docs/quickstart
 
 
 
 python -m pip install -r requirements.txt
+
+
+algo-303501
