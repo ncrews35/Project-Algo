@@ -6,6 +6,14 @@ CREATE TABLE stock (
     is_shortable BOOLEAN NOT NULL
 );
 
+CREATE TABLE individual_stocks (
+    id SERIAL PRIMARY KEY,
+    dt TIMESTAMP WITHOUT TIME ZONE NOT NULL,
+    message TEXT NOT NULL, 
+    source TEXT NOT NULL,
+    url TEXT NOT NULL
+);
+
 CREATE TABLE mention (
     stock_id INTEGER NOT NULL,
     dt TIMESTAMP WITHOUT TIME ZONE NOT NULL,
